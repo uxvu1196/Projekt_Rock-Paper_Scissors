@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/5a7b87cd25.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <section>
+    <h1>ROCK - PAPER - SCISSOR</h1>
+    <form action="">
+      <h2>how many rounds?</h2>
+      <input type="radio" name="number5" id="number5" checked>
+      <label for="number5">5</label>
+      <input type="radio" name="number10" id="number10">
+      <label for="number10">10</label>
+      <input type="radio" name="number15" id="number15">
+      <label for="number15">15</label>
+      <input type="radio" name="number20" id="number20">
+      <label for="number20">20</label>
+    </form>
+  </section>
+
+  <section>
+    <h2>how many rounds?</h2>
+    <p><span id="rounds">1</span>/ 5</p>
+  </section>
+
+  <section>
+    <p><span id="result1">0</span> : <span id="result2">0</span>
+    </p>
+
+    <h2>Let's play</h2>
+
+    <div><i class="far fa-hand-rock"></i></div>
+    <div><i class="far fa-hand-paper"></i></div>
+    <div><i class="far fa-hand-scissors"></i></div>
+
+    <h3>MAKE YOUR MOVE.</h3>
+
+    <input type="button" value="restart" onclick="restart()">
+  </section>
+
+  <div>
+    <p>Let's play</p>
+    <p>It was a draw! You both choose <span></span></p>
+    <p>The user wins</p>
+  </div>
+
+
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
+
+<!--
+Aufgabenstellung
+
+Jeder hat in seinem Leben schonmal "Rock, Paper, Scissors" (Schnick, Schnack, Schnuck) gespielt. Ihr kennt die Regeln also bereits. 
+
+Definiere, wie viele Runden wir gegen den Computer spielen werden.
+Die Farbe sollte sich ändern, wenn es sich um einen Gewinn, ein Unentschieden oder eine Niederlage handelt. Das Design kannst du natürlich auch anders gestalten.  
+-->
